@@ -2,7 +2,7 @@ Drone JSON-TCP client.
 
 # Joystick compatibility #
 
-Test with Joystick [Thrustmaster, Inc. USB Game Controllers] on Ubuntu.
+Tested with Joystick [Thrustmaster, Inc. USB Game Controllers] on Ubuntu.
 
 # Installation Instructions #
 
