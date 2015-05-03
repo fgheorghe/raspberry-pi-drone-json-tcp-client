@@ -57,8 +57,8 @@ var DroneJoystickController = new DroneJoystickController({
     Logger: Logger,
     // ... and TCP client.
     DroneTcpClient: new DroneTcpClient({
-        Host: "127.0.0.1",
-        Port: 31337,
+        Host: Configuration.server.host,
+        Port: Configuration.server.port,
         Logger: Logger
     })
 });
