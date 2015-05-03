@@ -1,0 +1,14 @@
+{
+  "name": "drone-client",
+  "author": "Grosan Flaviu Gheorghe",
+  "dependencies": {
+    "joystick": "0.1.1",
+    "json-over-tcp": "0.3.2",
+    "log4js": "0.6.24",
+    "ini": "1.3.3"
+  },
+  "scripts": {
+    "start": "forever start daemon.js",
+    "stop": "forever stop daemon.js"
+  }
+}
